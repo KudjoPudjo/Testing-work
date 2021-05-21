@@ -1,0 +1,218 @@
+.form-name-inp{
+    width: 90%;
+    height: 25px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    padding-left: 4px
+}
+.form-select-item{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 7px;
+    border:1px solid #696969;
+    color: #696969;
+}
+.form-select-wrp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.form-discrption-txt{
+    resize: none;
+    width: 90%;
+    border-radius: 7px;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+}
+.preview-wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+}
+.add-button-wrp{
+    width: 40%;
+    height: 40%;
+    background-color: #6aa99c;
+    border-radius: 10px;    
+    cursor: pointer;
+    position: relative;
+}
+.add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-height: 200px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+.d-2{
+    border-radius: 50%;
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto;
+}
+.file-inp{
+    position: absolute;    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+.price-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.price-inp-wrp{
+    margin-right: 40px;
+}
+.price-inp{
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    color: #6aa99c;
+}
+.selector-currency{
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    color: #6aa99c;
+    width: 50px;
+}
+.selector-tariff{
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    color: #6aa99c;
+    width: 100px;
+}
+.tariff-wrp{
+    display: flex; 
+    align-items: center;   
+}
+.tariff-add-wrp{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    border:1px solid black;
+    background-color: white;
+    box-sizing: content-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+}
+.tarif-add-inp{
+    color: #6aa99c;
+    border: none;
+    outline: none;
+    width: 80%;
+}
+.tariff-add{
+    background-color: #6aa99c;
+    color: white;
+    font-size: 1.0.5rem;
+    outline: none;
+    border-radius: 3px;
+    border:1px solid black;
+    cursor: pointer;
+}
+.append-button{
+    background-color: #6aa99c;
+    margin-left: 30px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height: 30px;
+}
+.tarif-list-item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.tarif-info-checkbox{
+    width: 25px;
+    outline: none;
+    height: 20px;
+    border: 0.5px solid black;
+    margin-right: 10px;
+}
+.tariff-info-txt{
+    margin-right: 10px;
+}
+.tariff-info-price{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+    color: #6aa99c;
+}
+.data-picer-wrp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.time-recover{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    opacity: 0.4;
+}
+.preview-picture{
+    width: 80%;
+}
+.picture-wrp{
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr);
+    grid-column-gap: 10px;
+}
+.w{
+    width: 100%;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;   
+    background-color: none; 
+    width: 30%;
+    
+}
+.upload-button{
+    background-color: #6aa99c;
+    outline: none;
+    border:none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
